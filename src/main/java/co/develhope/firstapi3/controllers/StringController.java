@@ -13,4 +13,5 @@ public class StringController {
     public String getString (@RequestParam(required = true)String string1, @RequestParam(required = false) String string2){
         return string1 + string2;
     }
+
 }
